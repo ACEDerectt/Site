@@ -1,13 +1,21 @@
 .header{
-	
+	padding-top: 1%;
+	display: grid;
+	grid-template-columns: 90% 10%;
+
 }
 .head{
-	
+	display: grid;
 	background-color: red;
 }
 .invite{
 	background-color: green;
 }
 .button{
-	
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	padding-top: 1%;
+}
+.text{
+	background-color: aqua;
 }
