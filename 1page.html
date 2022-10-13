@@ -20,31 +20,33 @@
 
 		</header>
 
-		<div class="button row">
+		<div class="row">
+			<nav class="navbar-nav">
+				<form class="form-inline">
 
-			<button>Главная</button>
-
-			<button>Контактная информация</button>
-
-			<button>Заявка на ремонт</button>
-
-			<button>Заявка на вступление</button>
+					<button class="btn" onclick="changeContent('News.html')">Главная</button>
+					
+					<button class="btn" onclick="">Контактная информация</button>
+					
+					<button class="btn" onclick="">Заявка на ремонт</button>
+					
+					<button class="btn" onclick="">Заявка на вступление</button>
+					
+					<button class="btn" onclick="changeContent('Members.html')">Участники</button>
+				</form>
+			</nav>
 
 		</div>
 
 		<div class="text row">
-			<iframe src="">
-				<p>dfadad</p>
-				<p>dfadad</p>
-				<p>dfadad</p>
-				<p>dfadad</p>
-				<p>dfadad</p>
-				<p>dfadad</p>
+			
+			<iframe	id="contentFrame" onchange="resizeFrame(this)" onload="resizeFrame(this)">
 			</iframe>
 		</div>
 	</div>
 
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/jquery-3.6.1.min.js"></script>
+	<script type="text/javascript" src="js/crap.js"></script>
 </body>
 </html>

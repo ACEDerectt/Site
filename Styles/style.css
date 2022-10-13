@@ -19,3 +19,6 @@
 .text{
 	background-color: aqua;
 }
+ul.members{
+	list-style-type: none;
+}
