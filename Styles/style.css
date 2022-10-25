@@ -3,22 +3,18 @@ header{
 	background-color: #0a4275;
 
 }
-.head{
-	
-	
-}
 .logo{
 	width: 8%;
 	border-radius: 10%;
 
 }
 .navform{
-	margin-top: 3%;
-	/*margin-left: 300px;*/
-
+	float: right;
+	margin: 28px 10px;
+	max-width: 85%;
 }
-.divnav{
-	
+.navform .btn a{
+	color: #EEE;
 }
 .invite{
 	background-color: green;
@@ -26,7 +22,7 @@ header{
 
 .text{
 	background-color: #dde;
-
+	opacity: .5;
 	height: 1300px;
 }
 ul.members{
@@ -35,10 +31,13 @@ ul.members{
 .btn{
 	float: right;
 }
+body{
+	background-repeat: no-repeat;
+	background-size: cover;
+	/* background-position: 0; */
+	background-attachment: fixed;
+}
 a{
 	text-decoration: none;
 	color: black;
-}
-footer{
-
 }

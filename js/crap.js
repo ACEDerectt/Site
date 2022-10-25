@@ -1,5 +1,5 @@
 function resizeFrame(sender){
-    sender.style.height = sender.contentWindow.document.documentElement.scrollHeight + "px"
+    document.getElementById("mainContent").style.height = document.getElementById("contentFrame").contentWindow.document.documentElement.scrollHeight + "px"
 }
 function changeContent(fileName){
 
