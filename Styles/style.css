@@ -24,17 +24,43 @@ header{
 	background-color: #dde8;
 	height: 1300px;
 }
-ul.members{
-	list-style-type: none;
-}
 .btn{
 	float: right;
 }
 body{
 	background-repeat: no-repeat;
 	background-size: cover;
-	/* background-position: 0; */
 	background-attachment: fixed;
+}
+ul.members{
+	list-style-type: none;
+	padding: 0 30px;
+}
+ul.members li img{
+	width: 200px;
+	height: 200px;
+	border-radius: 300px;
+	display: inline-block;
+	object-fit: cover;
+}
+ul.members li{
+	width: 100%;
+	display: flex;
+}
+ul.members li:nth-child(odd){
+	display: flex;
+	flex-flow: row-reverse;
+}
+ul.members li .memInfo{
+	display: inline-block;
+	max-width: 70%;
+	margin: 60px;
+}
+ul.members li .memName{
+	font-size: 20pt;
+}
+ul.members li .memDesc{
+	font-size: 12pt;
 }
 a{
 	text-decoration: none;
