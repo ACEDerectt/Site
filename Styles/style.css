@@ -1,7 +1,6 @@
-.header{
+header{
 	padding-top: 1%;
-	/*display: grid;
-	grid-template-columns: 90% 10%;*/
+	background-color: #0a4275;
 
 }
 .head{
@@ -26,11 +25,20 @@
 }
 
 .text{
-	background-color: aqua;
+	background-color: #dde;
+
+	height: 1300px;
 }
 ul.members{
 	list-style-type: none;
 }
 .btn{
 	float: right;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+footer{
+
 }

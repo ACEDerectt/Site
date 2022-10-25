@@ -6,9 +6,9 @@
 	<link rel="stylesheet"  href="Styles/bootstrap-grid.min.css">
 	<link rel="stylesheet" href="Styles/style.css">
 </head>
-<body>
+<body style="background-color:white;">
 	<div class="container">
-			<header class="header row head ">
+			<header class="row head ">
 
 					<nav class="navbar-nav">
 
@@ -17,29 +17,50 @@
 
 							<div class="navform">
 
-								<button class="btn invite" > Войти</button>
+								<button class="btn invite"><a href=""> Войти</a></button>
 
-								<button class="btn" onclick="changeContent('Members.html')">Участники</button>
-								
-								<button class="btn" onclick="">Заявка на вступление</button>
+								<button class="btn"><a href="Members.html">Участники</a></button>
 
-								<button class="btn" onclick="">Заявка на ремонт</button>
+								<button class="btn"><a href="">Заявка на вступление</a></button>
+
+								<button class="btn"><a href="">Заявка на ремонт</a></button>
 								
-								<button class="btn" onclick="">Контактная информация</button>
+								<button class="btn"><a href="">Контактная информация</a></button>
 								
-								<button class="btn " onclick="changeContent('News.html')">Главная</button>		
+								<button class="btn"><a href="1page.html">Главная</a></button>		
+
 							</div>
 						</div>
 					</nav>
 			</header>		
-		<main>
-			<div class="text row">
-				
-				<iframe	id="contentFrame" onchange="resizeFrame(this)" onload="resizeFrame(this)"></iframe>				
-			</div>
-		</main>
-	</div>
+			<main class="text row">
+				<article class="col-12">					
+					
+				</article>
 
+				<aside class="col-12">
+
+				</aside>
+			</main>
+	
+		  <footer class="text-center text-white " style="background-color: #0a4275;">
+		    <div class="container p-4 pb-0">		     
+		      <section class="">
+		        <p class="d-flex justify-content-center align-items-center">
+		          <span class="me-3">Register for free</span>
+		          <button type="button" class="btn btn-outline-light btn-rounded">
+		            Sign up!
+		          </button>
+		        </p>
+		      </section>		      
+		    </div>		    
+		    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+		      © 2020 Copyright:
+		      <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+		    </div>		   
+		  </footer>
+	</div>
+	
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/jquery-3.6.1.min.js"></script>
 	<script type="text/javascript" src="js/crap.js"></script>
