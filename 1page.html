@@ -8,41 +8,36 @@
 </head>
 <body>
 	<div class="container">
-		<header class="header row">
+			<header class="header row head ">
 
-			<div class="head col-12">
-				Радиотехнический клуб(РТК-ТПК)
+					<nav class="navbar-nav">
+
+						<div class="divnav ">	
+							<img alt="logo" class="logo float-start" src="Images\ICON.jpg ">	
+
+							<div class="navform">
+
+								<button class="btn invite" > Войти</button>
+
+								<button class="btn" onclick="changeContent('Members.html')">Участники</button>
+								
+								<button class="btn" onclick="">Заявка на вступление</button>
+
+								<button class="btn" onclick="">Заявка на ремонт</button>
+								
+								<button class="btn" onclick="">Контактная информация</button>
+								
+								<button class="btn " onclick="changeContent('News.html')">Главная</button>		
+							</div>
+						</div>
+					</nav>
+			</header>		
+		<main>
+			<div class="text row">
+				
+				<iframe	id="contentFrame" onchange="resizeFrame(this)" onload="resizeFrame(this)"></iframe>				
 			</div>
-
-			<button class="invite col-12">
-				Войти
-			</button>
-
-		</header>
-
-		<div class="row">
-			<nav class="navbar-nav">
-				<form class="form-inline">
-
-					<button class="btn" onclick="changeContent('News.html')">Главная</button>
-					
-					<button class="btn" onclick="">Контактная информация</button>
-					
-					<button class="btn" onclick="">Заявка на ремонт</button>
-					
-					<button class="btn" onclick="">Заявка на вступление</button>
-					
-					<button class="btn" onclick="changeContent('Members.html')">Участники</button>
-				</form>
-			</nav>
-
-		</div>
-
-		<div class="text row">
-			
-			<iframe	id="contentFrame" onchange="resizeFrame(this)" onload="resizeFrame(this)">
-			</iframe>
-		</div>
+		</main>
 	</div>
 
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>

@@ -1,24 +1,36 @@
 .header{
 	padding-top: 1%;
-	display: grid;
-	grid-template-columns: 90% 10%;
+	/*display: grid;
+	grid-template-columns: 90% 10%;*/
 
 }
 .head{
-	display: grid;
-	background-color: red;
+	
+	
+}
+.logo{
+	width: 8%;
+	border-radius: 10%;
+
+}
+.navform{
+	margin-top: 3%;
+	/*margin-left: 300px;*/
+
+}
+.divnav{
+	
 }
 .invite{
 	background-color: green;
 }
-.button{
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
-	padding-top: 1%;
-}
+
 .text{
 	background-color: aqua;
 }
 ul.members{
 	list-style-type: none;
+}
+.btn{
+	float: right;
 }
