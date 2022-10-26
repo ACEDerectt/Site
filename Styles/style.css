@@ -33,8 +33,15 @@ body{
 	background-size: cover;
 	background-attachment: fixed;
 }
+<<<<<<< HEAD
 ul.members{
 	list-style-type: none;
+=======
+ul{
+	list-style-type: none;
+}
+ul.members{
+>>>>>>> 125a9e55c5f3a948e06f9d4bce786dcd9700d8ba
 	padding: 0 30px;
 }
 ul.members li img{
@@ -63,13 +70,67 @@ ul.members li .memName{
 ul.members li .memDesc{
 	font-size: 12pt;
 }
+<<<<<<< HEAD
+=======
+ul.newsBox{
+	margin-top: 30px;
+	padding: 0 30px;
+}
+ul.newsBox li{
+	background-color: white;
+	padding-bottom: 5px;
+	border-radius: 20px;
+	margin-bottom: 40px;
+}
+ul.newsBox li h2{
+	background-color: #0a4275;
+	border-radius: 20px 20px 0px 0px;
+	text-indent: 10pt;
+	padding: 10px;
+	color: #eee;
+}
+ul.newsBox li p{
+	padding: 5px 10px 0px 20px;
+	overflow-y: hidden;
+	max-height: 100px;
+	-webkit-line-clamp: 4;
+	-webkit-box-orient: vertical;
+	display: -webkit-box;
+}
+>>>>>>> 125a9e55c5f3a948e06f9d4bce786dcd9700d8ba
 a{
 	text-decoration: none;
 	color: black;
 }
+<<<<<<< HEAD
 .logotip img{
 	width: 30px;
 	border-radius:300px;
 	background-color: #0a4275;
 }
 
+=======
+.news{
+	display: flex;
+	justify-content: space-between;
+}
+.news article{
+	width: 70%;
+}
+.news aside{
+	width: 25%;
+	margin: 25px 30px 30px 0;
+	background-color: white;
+	border-radius: 20px;
+	padding: 0;
+	min-height: 300px;
+	height: fit-content;
+}
+.news aside h2{
+	background-color: #0a4275;
+	border-radius: 20px 20px 0 0;
+	text-indent: 10pt;
+	padding: 10px;
+	color: #eee;
+}
+>>>>>>> 125a9e55c5f3a948e06f9d4bce786dcd9700d8ba
