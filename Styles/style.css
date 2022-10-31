@@ -25,9 +25,7 @@ header{
 	min-height: 1300px;
 	max-height: fit-content;
 }
-.btn{
-	float: right;
-}
+
 body{
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -120,5 +118,6 @@ a{
 .logotip img{
 	width: 30px;
 	border-radius:300px;
-	background-color: #0a4275;
+	background-color: white;
 }
+
